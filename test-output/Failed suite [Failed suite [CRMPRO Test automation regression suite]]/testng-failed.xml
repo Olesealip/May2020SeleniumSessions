@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Failed suite [Failed suite [CRMPRO Test automation regression suite]]]" parallel="tests">
+  <test thread-count="3" verbose="3" name="CRMPRO Login Test(failed)(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.myTest.LoginPageTest">
+        <methods>
+          <include name="crmLoginPageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myTest.LoginPageTest -->
+    </classes>
+  </test> <!-- CRMPRO Login Test(failed)(failed)(failed) -->
+  <test thread-count="3" verbose="3" name="CRMPRO Home Test(failed)(failed)(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.myTest.HomePageTest">
+        <methods>
+          <include name="crmHomePageTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.myTest.HomePageTest -->
+    </classes>
+  </test> <!-- CRMPRO Home Test(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [CRMPRO Test automation regression suite]]] -->
