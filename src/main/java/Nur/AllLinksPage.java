@@ -15,7 +15,7 @@ public class AllLinksPage {
 	public static void main(String[] args) {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver= new ChromeDriver();
-		driver.get("http://www.amazon.com");
+		driver.get("http://www.google.com");
 	List<WebElement> links = driver.findElements(By.tagName("a"));
 	
 	//for(int i=0; i < links.size(); i++) {
