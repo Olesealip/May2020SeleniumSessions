@@ -11,7 +11,7 @@ public class DependsOnMethodsConcept {
 	}
 	@Test(dependsOnMethods= "loginTest") // we will create dependancy 
 	public void homePageTest() {
-	System.out.println("Home test");	
+	System.out.println("New Home Test");	
 		}
 	@Test(dependsOnMethods= "loginTest")
 	public void dealsPageTest() {
