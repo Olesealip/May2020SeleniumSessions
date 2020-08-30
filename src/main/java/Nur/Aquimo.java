@@ -16,7 +16,7 @@ public class Aquimo {
 				driver.manage().deleteAllCookies();
 				long finish = System.currentTimeMillis();
 				long totalTime = finish - start; 
-				System.out.println("Total Time for page load - "+totalTime); 
+				System.out.println("Total number- "+totalTime); 
 
 		WebElement home=driver.findElement(By.xpath("//div[text()='Home'] "));
 		
